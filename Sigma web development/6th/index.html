@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Registration form to become a member of U.F Union</h1>
+    <form action="post">
+        <div>
+            <label for="Username">Enter your name :</label>
+            <input type="text" id="username" name="username" placeholder="Enter your Name">
+        </div>
+        <br>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Member" name="Member" value="yes">
+            <label for="Member">Want to become a member</label>
+        </div>
+        <br>
+        <div>
+            <label for="comment">How can you serve U.F Union</label>
+            <br>
+            <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+        </div>
+        <div>
+           <br>
+           How did you got to know about us
+            <select name="your answer">
+                <option value="a member">a member</option>
+                <option value="online">online</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>

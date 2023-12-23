@@ -1,0 +1,57 @@
+              @import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Poppins&display=swap');
+                h1 {
+                        text-align: center;
+                        text-decoration: underline;
+                        font-family: 'Georgia', Arial and Helvetica;
+                        font-weight: bolder;
+                }
+                h2{
+                        text-decoration: underline;
+                        text-decoration-style: dashed;
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        font-weight: bolder;
+                }
+                a:link{
+                        color: blue;
+                }
+                a:visited{
+                        color: purple;
+                }
+                a:hover{
+                       
+                        text-decoration: underline;
+                        text-decoration-thickness: 2px;
+                }
+                a:active{
+                        background-color: aquamarine;
+                }
+                a{
+                        font-size: 17px;
+                       font-family: 'Calistoga',Poppins;
+                       text-decoration: none;
+                        
+                }
+                img{
+                        width: 35px;
+                        height: 35px;
+
+                }
+                .link{
+                        border: 2px solid black;
+                        width: 180px;
+                        height: 35px;
+                        padding: 8px;
+                        margin: 6.5px;
+                }
+                body{
+                        background-color: rgb(94, 91, 91);
+                }
+                .flexx{
+                        display: flex;                             
+                }
+                .img{
+                        margin-top: 5px;
+                        height: 40vh;
+                        width: 190vh;
+                }
+        

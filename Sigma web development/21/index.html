@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS media quaries</title>
+    <style>
+        body{
+            background-color: red;
+        }
+        @media only screen and (width<=269px) {
+            body{
+                background-color: blue;
+            }
+            div{
+                background-color: yellow;
+                color: rgb(255, 0, 247);
+                text-shadow: 3px 4px black 5px;
+                border: 2px solid black;
+                height: 50vh;
+                width: 60vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        I am a div
+    </div>
+</body>
+</html>
